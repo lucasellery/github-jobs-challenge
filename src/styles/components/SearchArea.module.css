@@ -1,6 +1,59 @@
 .container {
-  width: 100%;
+  width: 100% !important;
   height: 138px;
+
+  border-radius: 8px !important;
+  margin-top: 2.3rem !important;
+
+  background: url('../../../public/images/backgroundImg.png') no-repeat;
+}
+
+.inputArea {
+  width: calc(100% - 20px) !important;
+
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+
+  height: 55px !important;
+  background: #FFFFFF !important;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) !important;
+  border-radius: 4px !important;
+
+  padding: 0 5px 0 5px !important;
+}
+
+.inputBase {
+  width: 30rem !important;
+}
+
+.inputSearch {
+  background-color: white !important;
+  width: 100% !important;
+}
+
+.caseIcon {
+  color: #B9BDCF !important;
+  margin: 0 9.5px 0 10px !important;
+}
+
+.buttonSearch {
+  background: #1E86FF !important;
+  border-radius: 4px !important;
+
+  height: 47px !important;
+  width: 9.125rem !important;
+}
+
+.buttonSearch p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  line-height: 19px;
+  text-transform: initial;
+
+  color: #FFFFFF;
 }
 
 @media (max-width: 600px) {
@@ -8,7 +61,26 @@
     width: 100%;
     height: 138px;
 
-    background-color: red;
+    border-radius: 8px !important;
+    margin-top: 2.3rem !important;
+
+    background: url('../../../public/images/backgroundImg.png') no-repeat;
+  }
+
+  .inputArea {
+    width: 90% !important;
+    height: 55px !important;
+    background: #FFFFFF !important;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1) !important;
+    border-radius: 4px !important;
+
+    padding: 0 5px 0 5px !important;
+  }
+
+  .inputSearch {
+    background-color: white !important;
+    width: 16.5rem !important;
+    /* margin-left: 18px !important; */
   }
 }
 
