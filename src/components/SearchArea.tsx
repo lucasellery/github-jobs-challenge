@@ -37,6 +37,7 @@ export function SearchArea() {
               // value="lucas"
               inputProps={{ 'aria-label': 'naked' }}
               className={styles.inputBase}
+              fullWidth={true}
             />
           </Grid>
         </Grid>

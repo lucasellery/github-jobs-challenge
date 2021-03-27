@@ -19,6 +19,8 @@ const Home: React.FC = () => {
 
         <SearchArea />
 
+        
+
       </main>
     </div>
   );
