@@ -28,6 +28,23 @@
   font-weight: 400;
 }
 
+.bodyContainer {
+  display: grid;
+  grid-template-columns: 1fr 65%;
+
+  margin-top: 2.625rem;
+}
+
+.location {
+  margin-left: 0.75rem !important;
+}
+
+.jobsList {
+  background-color: blueviolet;
+
+  margin-left: 2rem;
+}
+
 @media (max-width: 600px) {
   .container {
     padding: 1rem;

@@ -1,0 +1,20 @@
+.container {
+  margin-top: 1.4375rem;
+}
+
+.locationTitle {
+  font-family: Poppins !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-size: 0.875rem !important;
+  line-height: 21px !important;
+
+  text-transform: uppercase !important;
+
+  color: #B9BDCF !important;
+}
+
+.form {
+  margin-top: 0.875rem;
+
+}
