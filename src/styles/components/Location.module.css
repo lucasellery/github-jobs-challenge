@@ -16,5 +16,19 @@
 
 .form {
   margin-top: 0.875rem;
+}
 
+.icon {
+  width: 15px !important;
+  height: 15px !important;
+
+  color: #B9BDCF !important;
+}
+
+.textField {
+  width: 100% !important;
+}
+
+.formControl {
+  margin-top: 15px !important;
 }
