@@ -1,0 +1,14 @@
+.container {
+  background-color: #FFFFFF;
+
+  width: 100% !important;
+  height: 114px;
+
+  padding: 12px;
+}
+
+.photoContainer {
+  width: 90px !important;
+  height: 90px !important;
+
+}

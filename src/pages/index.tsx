@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css';
 import { SearchArea } from '../components/SearchArea';
 import Time from '../components/Time';
 import Location from '../components/Location';
+import JobsListCards from '../components/JobsListCards';
 
 const Home: React.FC = () => {
   return (
@@ -25,10 +26,10 @@ const Home: React.FC = () => {
           <div className={styles.location}>
             <Time />
             <Location />
-
           </div>
+
           <div className={styles.jobsList}>
-            blbalab
+            <JobsListCards />
           </div>
 
         </div>
